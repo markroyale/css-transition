@@ -1,0 +1,37 @@
+.box {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    padding-top: 50px;
+    color:grey;
+    background-color: darkgrey;;
+    transition-duration: 850ms;
+    transition-timing-function: ease-in;
+}
+
+.box2 {
+   width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 50px;
+    color:beige;
+    background-color:bisque;
+    transition-duration: 850ms;
+    transition-timing-function: ease-out;
+}
+
+.box:hover {
+background-color:dimgrey;
+text-decoration-line: line-through;
+transform: rotate(180deg);
+
+}
+.box2:hover:hover {
+background-color:darkkhaki;
+text-decoration-line: line-through;
+transform: rotate(180deg);
+}
